@@ -2,7 +2,7 @@
 const cfConfig = {
   cssBase:
     getElemById("contactform").src.split("/src")[0] ||
-    "https://cdn.jsdelivr.net/gh/cachecleanerjeet/contact-form@master",
+    "https://cdn.jsdelivr.net/gh/sumitarora2904/Contact-Form@main",
   error: {
     title: "Error",
     message:
@@ -33,7 +33,7 @@ const cfform = `
 	<input class="element" onchange="cfonChange('cfphone')" id="cfphone" type="number" name="phoneno" placeholder="Phone No" autocomplete="off">
 	<input class="element" onchange="cfonChange('cfsubject')" id="cfsubject" type="text" name="subject" placeholder="Subject" autocomplete="off">
 	<textarea class="element" onchange="cfonChange('cfmessage')" id="cfmessage" name="message" placeholder="Your message"></textarea>
-	<button id="cfbutton" onclick="cfSubmitMessage()" class="form-button color">Send your message</button><a href="https://github.com/cachecleanerjeet/Contact-Form" class="cfpromo">Powered by Contact Form</a>
+	<button id="cfbutton" onclick="cfSubmitMessage()" class="form-button color">Send your message</button>
 </div>
 `;
 
